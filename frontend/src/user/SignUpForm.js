@@ -14,7 +14,7 @@ const SignUpForm = () => {
         e.preventDefault();
     
         try {
-            const response = await axios.post('http://localhost:5000/api/auth/signup', {
+            const response = await axios.post('https://ecommerce-restaurant-app.onrender.com/api/auth/signup', {
                 username,
                 email,
                 password,
